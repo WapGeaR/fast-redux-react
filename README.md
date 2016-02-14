@@ -1,20 +1,15 @@
-# Isomorphic Redux App
+# Fast Isomorphic redux app
 
-[![build status](https://travis-ci.org/caljrimmer/isomorphic-redux-app.svg?branch=master&style=flat-square)](https://travis-ci.org/caljrimmer/isomorphic-redux-app)
 
 This project serves as a **simple** boilerplate to start building an isomorphic rendering application in React and Redux.
 
-<img src="https://habrastorage.org/files/b75/ae3/93e/b75ae393eb274caa992cc7f313dff23d.png" width="800"/>
 # Features
 
 - Async server-side rendering
 - Hot reloading middleware
 - Redux DevTools and Logging
 - Redux Routing
-- Reddit API example
-- Counter example
-- Todo example
-- Static content example
+- Redux DevTool as Chrome extention
 
 ## Stack
 
@@ -25,8 +20,6 @@ This project serves as a **simple** boilerplate to start building an isomorphic 
 - Redux
 - Redux-DevTools
 - Babel
-- Material UI
-
 ## Development Installation
 
 In the project's directory, run the following commands:
@@ -35,6 +28,8 @@ In the project's directory, run the following commands:
 $ npm install
 $ npm start
 ```
+And install this Extention into chrome
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-app-launcher-info-dialog
 
 Then Visit
 
@@ -44,7 +39,7 @@ http://localhost:3002
 
 ## Releasing to Production
 
-Production has Devtools, logging and hot reloading middleware removed and the scripts/css compressed. 
+Production has Devtools, logging and hot reloading middleware removed and the scripts/css compressed.
 
 In the project's directory, run the following commands:
 
@@ -72,5 +67,3 @@ You need to put token into cookie with name 'token' and check it into file via a
 ## Credit
 
 Based on https://github.com/caljrimmer/isomorphic-redux-app
-
-Theme by Material UI Lib https://github.com/callemall/material-ui
